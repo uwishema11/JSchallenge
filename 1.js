@@ -1,3 +1,4 @@
+//return prime number
 function primeNumbers(array){
     let primeArray = [];
     for(var i = 0; i < array.length; i++) {
