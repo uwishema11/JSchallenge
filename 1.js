@@ -1,14 +1,12 @@
+var oldArray=[2,4,5,7,8,31,11];
+var theArray=[];
 
-const primeArray= [1,2,3,4,5,6,7,8,9];
-const newArray = [];
-
-function primeSort(array){
-    for(let a= 0; a <= array.length-1;a++){
-        array[a] % 2 !== 0 ? newArray.push(array[a]) : '';
+function primeNumber(array){
+for( var i=0;i<array.length; i++){
+    if(array[i]%2 !=0){
+        theArray.push(array[i])
     }
-
-    return newArray;
-
 }
-
-console.log(primeSort(primeArray));
+return theArray;
+}
+console.log(primeNumber(oldArray));
