@@ -4,7 +4,7 @@
 //     patrick: {second-name:wyne, age:30},
 //  lil: {second-name:wyne, age:30},
 //  ...
-// }
+// } 
 function getPeople(array) {
     let output = {};
     for(let i = 0; i < array.length; i++) {
